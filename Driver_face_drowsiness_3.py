@@ -9,8 +9,8 @@ import os
 from scipy.spatial import distance as dist
 
 # --- Paths ---
-MODEL_PATH = "/media/darshan/6D5369163EF9BE52/project/shape_predictor_68_face_landmarks.dat"
-SOUND_PATH = "/media/darshan/6D5369163EF9BE52/project/mixkit-classic-alarm-995.wav"
+MODEL_PATH = "shape_predictor_68_face_landmarks.dat"
+SOUND_PATH = "mixkit-classic-alarm-995.wav"
 
 # --- Validate files before loading ---
 if not os.path.exists(MODEL_PATH):
